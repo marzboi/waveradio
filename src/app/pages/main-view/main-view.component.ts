@@ -5,7 +5,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'app-main-view',
   standalone: true,
   imports: [CommonModule],
-  template: `<p>main-view works!</p>`,
+  templateUrl: './main-view.component.html',
   styleUrls: ['./main-view.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
